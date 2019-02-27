@@ -1,0 +1,52 @@
+.doc-item {
+    width: 100%;
+    vertical-align: center;
+    padding: 10px 0;
+    margin: 0px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.doc-item:hover, .doc-item:focus {
+    background-color: #ade1f4;
+}
+
+.doc-item button {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    top: 0;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.doc-item .chip {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 85%;
+    margin-top: -18px;
+}
+
+.doc-item .description {
+    line-height: 15px;
+    display: inline-block;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.doc-item .description .subtitle {
+    display: block;
+    font-weight: 400;
+    color: gray;
+    font-size: 85%;
+}
+
+.highlight {
+    font-weight: bold;
+}
